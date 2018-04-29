@@ -1,4 +1,3 @@
-// Store value of user input in variable
 // var userInput = document.getElementById("user-input").value;
 
 // Store display message elements in variable
@@ -16,20 +15,188 @@ var capricorn = {
 	message: "You are a Capricorn: The measured master planner of the horoscope family, Capricorn energy teaches us the power of structure and long-term goals."
 };
 
+var aries = {
+	title: "aries",
+	img: "img/aries.webp",
+	message: "The first sign of the Zodiac, Aries are the trailblazers. Passionate and independent, Aries will never do something just because everyone else is doing it—a Ram needs to be 100 percent committed to the task at hand. Competitive to the max, the best way to motivate an Aries is to turn something into a contest. Aries will put everything they have (and then some) into winning. Loyal, smart, and impulsive, they always have multiple projects on their mind, and won't be satisfied until their work, social life, and personal lives line up exactly with the dream life they've envisioned. Those who are drawn to magnetic Aries may have trouble keeping up—but if they can, they'll have a friend for life."
+};
+
+var pisces = {
+	title: "pisces",
+	img: "img/pisces.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var cancer = {
+	title: "cancer",
+	img: "img/cancer.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var aquarius = {
+	title: "aquarius",
+	img: "img/aquarius.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var gemini = {
+	title: "gemini",
+	img: "img/gemini.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var leo = {
+	title: "leo",
+	img: "img/leo.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var libra = {
+	title: "libra",
+	img: "img/libra.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var sagittarius = {
+	title: "sagittarius",
+	img: "img/sagittarius.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var scorpio = {
+	title: "scorpio",
+	img: "img/scorpio.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var taurus = {
+	title: "taurus",
+	img: "img/taurus.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+var virgo = {
+	title: "virgo",
+	img: "img/virgo.webp",
+	message: "Understanding is a most appropriate keyword for this gentle, affectionate sign. Easygoing and generally accepting of others around them, Pisceans are often found in the company of a variety of different personalities. Their willingness to give of themselves emotionally lends to an aura of quiet empathy. A Pisces is comforting to be around. While not likely to be the leader, this sign's presence is strong and vibrant in any cause they put their hearts into."
+};
+
+// fucntions displaying each zodiac content
+
+
+function capricornContent() {
+	title.textContent = capricorn.title;
+	zodiacImg.src = capricorn.img;
+	message.textContent = capricorn.message;
+};
+
+function ariesContent() {
+	title.textContent = aries.title;
+	zodiacImg.src = aries.img;
+	message.textContent = aries.message;
+};
+
+function piscesContent() {
+	title.textContent = pisces.title;
+	zodiacImg.src = pisces.img;
+	message.textContent = pisces.message;
+};
+
+function cancerContent() {
+	title.textContent = cancer.title;
+	zodiacImg.src = cancer.img;
+	message.textContent = cancer.message;
+};
+
+
+function aquariusContent() {
+	title.textContent = aquarius.title;
+	zodiacImg.src = aquarius.img;
+	message.textContent = aquarius.message;
+};
+
+
+function geminiContent() {
+	title.textContent = gemini.title;
+	zodiacImg.src = gemini.img;
+	message.textContent = gemini.message;
+};
+
+function leoContent() {
+	title.textContent = leo.title;
+	zodiacImg.src = leo.img;
+	message.textContent = leo.message;
+};
+
+function libraContent() {
+	title.textContent = libra.title;
+	zodiacImg.src = libra.img;
+	message.textContent = libra.message;
+};
+
+function sagittariusContent() {
+	title.textContent = sagittarius.title;
+	zodiacImg.src = sagittarius.img;
+	message.textContent = sagittarius.message;
+};
+
+function scorpioContent() {
+	title.textContent = scorpio.title;
+	zodiacImg.src = scorpio.img;
+	message.textContent = scorpio.message;
+};
+
+function taurusContent() {
+	title.textContent = pisces.title;
+	zodiacImg.src = pisces.img;
+	message.textContent = pisces.message;
+};
+
+function virgoContent() {
+	title.textContent = virgo.title;
+	zodiacImg.src = virgo.img;
+	message.textContent = virgo.message;
+};
+
+function tryAgain () {
+	title.textContent = "Try Again!";
+
+}
+
 
 
 //Logic for submitting user input
 function submitZodiac() {
+	// Store value of user input in variable
 	var userInput = document.getElementById("user-input").value;
-	
-	if (userInput.toLowerCase===capricorn.title) {
-		title.textContent() = capricorn.title;
-		zodiacImg.src() = capricorn.img;
-		message.textContent() = capricorn.message;
-		console.log("success!");
-	}
-	else {
-		title.textContent = "Try Again!";
+
+
+	if (userInput.toLowerCase()==capricorn.title) {
+		capricornContent();
+	} else if (userInput.toLowerCase()==aries.title) {
+		ariesContent();
+	} else if (userInput.toLowerCase()==pisces.title) {
+		piscesContent();
+	} else if (userInput.toLowerCase()==cancer.title) {
+		cancerContent();
+	} else if (userInput.toLowerCase()==aquarius.title) {
+		aquariusContent();
+	} else if (userInput.toLowerCase()==gemini.title) {
+		geminiContent();
+	} else if (userInput.toLowerCase()==leo.title) {
+		leoContent();
+	} else if (userInput.toLowerCase()==libra.title) {
+		libraContent();
+	} else if (userInput.toLowerCase()==sagittarius.title) {
+		sagittariusContent();
+	} else if (userInput.toLowerCase()==scorpio.title) {
+		scorpioContent();
+	} else if (userInput.toLowerCase()==taurus.title) {
+		taurusContent();
+	} else if (userInput.toLowerCase()==virgo.title) {
+		virgoContent();
+	} else {
+		tryAgain();
 	}
 	
 };
