@@ -5,7 +5,7 @@ var title = document.getElementById("title");
 var zodiacImg = document.getElementById("zodiac-img");
 var message = document.getElementById("message");
 
-
+// Store grid of Zodiac images
 
 
 //Objects-types for user-input
@@ -85,82 +85,107 @@ var virgo = {
 
 
 function capricornContent() {
-	title.textContent = capricorn.title;
+	title.textContent = capricorn.title.toUpperCase();
 	zodiacImg.src = capricorn.img;
 	message.textContent = capricorn.message;
+	document.body.style.backgroundColor = "#eee0d6";
 };
 
 function ariesContent() {
-	title.textContent = aries.title;
+	title.textContent = aries.title.toUpperCase();
 	zodiacImg.src = aries.img;
 	message.textContent = aries.message;
+	document.body.style.backgroundColor = "#f6cdcc";
+
 };
 
 function piscesContent() {
-	title.textContent = pisces.title;
+	title.textContent = pisces.title.toUpperCase();
 	zodiacImg.src = pisces.img;
 	message.textContent = pisces.message;
+	document.body.style.backgroundColor = "#e0d291";
+
 };
 
 function cancerContent() {
-	title.textContent = cancer.title;
+	title.textContent = cancer.title.toUpperCase();
 	zodiacImg.src = cancer.img;
 	message.textContent = cancer.message;
+	document.body.style.backgroundColor = "#daeed3";
+
 };
 
 
 function aquariusContent() {
-	title.textContent = aquarius.title;
+	title.textContent = aquarius.title.toUpperCase();
 	zodiacImg.src = aquarius.img;
 	message.textContent = aquarius.message;
+	document.body.style.backgroundColor = "#f2e0f5";
+
 };
 
-
 function geminiContent() {
-	title.textContent = gemini.title;
+	title.textContent = gemini.title.toUpperCase();
 	zodiacImg.src = gemini.img;
 	message.textContent = gemini.message;
+	document.body.style.backgroundColor = "#f6f3c1";
+
 };
 
 function leoContent() {
-	title.textContent = leo.title;
+	title.textContent = leo.title.toUpperCase();
 	zodiacImg.src = leo.img;
 	message.textContent = leo.message;
+	document.body.style.backgroundColor = "#f5dec6";
+
 };
 
 function libraContent() {
-	title.textContent = libra.title;
+	title.textContent = libra.title.toUpperCase();
 	zodiacImg.src = libra.img;
 	message.textContent = libra.message;
+	document.body.style.backgroundColor = "#f6dbe5";
+
 };
 
 function sagittariusContent() {
-	title.textContent = sagittarius.title;
+	title.textContent = sagittarius.title.toUpperCase();
 	zodiacImg.src = sagittarius.img;
 	message.textContent = sagittarius.message;
+	document.body.style.backgroundColor = "#e4f7ed";
+
 };
 
 function scorpioContent() {
-	title.textContent = scorpio.title;
+	title.textContent = scorpio.title.toUpperCase();
 	zodiacImg.src = scorpio.img;
 	message.textContent = scorpio.message;
+	document.body.style.backgroundColor = "#dee1f6";
+
 };
 
 function taurusContent() {
-	title.textContent = pisces.title;
+	title.textContent = pisces.title.toUpperCase();
 	zodiacImg.src = pisces.img;
 	message.textContent = pisces.message;
+	document.body.style.backgroundColor = "#d5f3f6";
+
 };
 
 function virgoContent() {
-	title.textContent = virgo.title;
+	title.textContent = virgo.title.toUpperCase();
 	zodiacImg.src = virgo.img;
 	message.textContent = virgo.message;
+	document.body.style.backgroundColor = "#ddcee0";
+
 };
 
 function tryAgain () {
-	title.textContent = "Try Again!";
-
+	title.textContent = "TRY AGAIN!";
+	message.textContent = "";
+	document.body.style.backgroundColor = "#D0D0D0";
+	document.getElementById("zodiac-grid").style.display = "none";
+	zodiacImg.src = "img/try-again.gif";
 }
 
 
@@ -200,5 +225,6 @@ function submitZodiac() {
 	}
 	
 };
+
 
 
